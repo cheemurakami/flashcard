@@ -4,15 +4,6 @@ h1{
     height: 100px;
     line-height: 100px;
 }
-
-.flashcard-hidden {
-    width: 600px;
-    height: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin: auto;
-    background-color: #ffff80;
-}
 p{
     text-align: center;
     font-size: large;
@@ -20,9 +11,59 @@ p{
     cursor: pointer;
 }
 
+.flashcard-hidden {
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: #ffff80;   
+}
+
 .flashcard-show{
     display: none; 
-    width: 600px;
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: #ffe6e6;
+    
+}
+
+.operator-hidden {
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: #ffff80;
+}
+
+.operator-show {
+    display: none; 
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: #ffe6e6;
+
+}
+
+.varialbe-hidden {
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: #ffff80;
+}
+
+
+.variable-show {
+    display: none; 
+    width: 500px;
     height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -30,8 +71,8 @@ p{
     background-color: #ffe6e6;
 }
 
-.operator-hidden {
-    width: 600px;
+.variablename-hidden {
+    width: 500px;
     height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -41,11 +82,12 @@ p{
 }
 
 
-.operator-show {
+.variablename-show {
     display: none; 
-    width: 600px;
+    width: 500px;
     height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin: auto;
     background-color: #ffe6e6;
+}

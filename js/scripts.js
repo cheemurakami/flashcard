@@ -9,4 +9,14 @@ $(document).ready(function(){
          $(".operator-hide").toggle();
      });
 
+     $("#Varialble-text").click(function(){
+        $(".variable-show").toggle();
+        $(".variable-hide").toggle();
+    });
+
+     $("#Varialblename-text").click(function(){
+         $(".variablename-show").toggle();
+         $(".variablename-hide").toggle();
+     });
+
 });
