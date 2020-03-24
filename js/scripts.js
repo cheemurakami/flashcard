@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $("#JavaScript-text").click(function(){
+    $(".JavaScript-text").click(function(){
         $(".flashcard-show").toggle();
-        $(".flashcard-hide").toggle();
+        $(".flashcard-hidden").toggle();
     });
 
      $("#Operators-text").click(function(){
@@ -18,5 +18,4 @@ $(document).ready(function(){
          $(".variablename-show").toggle();
          $(".variablename-hide").toggle();
      });
-
 });
